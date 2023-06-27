@@ -1,0 +1,37 @@
+.subjects_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    grid-auto-rows: 180px;
+    grid-gap: 20px;
+    margin: 10px;
+}
+
+
+.input_container {
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.input_field {
+    width: 80%;
+    text-align: center;
+    background-color: rgba(232,236,239,255);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .books_container_header{
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+}
+
+.subjects {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
